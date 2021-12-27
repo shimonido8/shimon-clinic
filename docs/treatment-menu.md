@@ -9,7 +9,8 @@ title: תפריט טיפולים
 <div  class="treatments-menu-t" >
 
 {% for treatment in site.treatments %}
-     <div id="{{ treatment.name }}" class='treatment-tr-wrap'>
+     <div class='treatment-tr-wrap'>
+        <div class="treatment-tr-anchor" id="{{ treatment.name }}"></div>
         <div class='treatment-tr  treatment-t-name {{odeven_treat}}'>
         <div class='treatment-td'>
            <a class="treatment item grow" href="{{treatment.permalink}}" title="{{treatment.title}}">

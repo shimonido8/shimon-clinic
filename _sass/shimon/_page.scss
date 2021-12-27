@@ -257,6 +257,7 @@
         border-radius: 8px;
         box-shadow: 3px 3px 6px gray;
     }
+
 }
 .next-prev-p{
     font-size: 1.3em;
@@ -364,7 +365,10 @@ a.whatsapp-link{
     background: #ffffff55;
     box-shadow: 6px 6px 12px #b0b0b0;
     
-    
+    .treatment-tr-anchor{
+        position: relative;
+        top:-200px;
+    }
     .treatment-tr-wrap:hover{
         background: white;
     }
