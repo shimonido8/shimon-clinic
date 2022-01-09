@@ -7,7 +7,7 @@ description: "
 "
 
 time: 70
-price: 250
+price_not: 250
 img: shiatsu2.jpg
 ---
 

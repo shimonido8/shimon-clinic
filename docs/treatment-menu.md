@@ -23,7 +23,6 @@ title: תפריט טיפולים
         </div>
         <div class='treatment-tr  treatment-t-details {{odeven_treat}}'>
             <div class='treatment-td treatment-timing'>משך הטיפול: <strong>{{ treatment.time }} דקות </strong></div>
-            <div class='treatment-td treatment-price'>מחיר: <strong>{{ treatment.price }}ש"ח</strong></div>
         </div>
      </div>
 
