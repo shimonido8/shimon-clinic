@@ -63,6 +63,7 @@
     z-index: 1;
     img{
         width: 100%;
+        height: auto;
     }
 }
 .logo-wrap{
@@ -216,7 +217,8 @@
         position: relative;
         z-index: 1;
         img{
-            border-radius: 60px;
+            border-radius: 20px;
+            height: auto;
         }
     }
 }
@@ -254,6 +256,7 @@
     }
     .content-img img{
         width: 100%;
+        height: auto;
         border-radius: 8px;
         box-shadow: 3px 3px 6px gray;
     }

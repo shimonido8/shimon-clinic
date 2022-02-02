@@ -38,7 +38,8 @@
         top: 45%;
         z-index: 1;
         font-size: 50px;
-        color: #bd9d60;
+        color: white;
+        text-shadow: 3px 3px 6px black;
         &.next{
             left:auto;
             right:50px;
@@ -88,6 +89,9 @@
                 border-radius: 6px;
                 overflow: hidden;
                 box-shadow: 2px 2px 4px gray;
+                img{
+                    height: auto;
+                }
                 @media screen and(max-width: 780px) {
                     width: 48%;
                     margin: 10px 1%;
