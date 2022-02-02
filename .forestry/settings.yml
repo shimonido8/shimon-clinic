@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: דף הבית
 - type: directory
   path: my_collections/_treatments
   label: טיפולים
