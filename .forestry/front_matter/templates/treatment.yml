@@ -38,7 +38,7 @@ fields:
     required: false
   label: מחיר הטיפול
   description: מחיר - השאר 0 אם אינך רוצה שהמחיר יופיע בדף
-- name: img
+- name: img_text
   type: text
   config:
     required: false
@@ -56,6 +56,11 @@ fields:
     required: false
   label: תיאור מטא למנועי חיפוש
   description: השאר ריק כדי לקחת ברירת המחדל מדף הבית
+- name: img
+  type: file
+  config:
+    maxSize: 64
+  label: תמונת באנר
 pages:
 - my_collections/_treatments/limpha.md
 - my_collections/_treatments/neck-sholders-back.md
