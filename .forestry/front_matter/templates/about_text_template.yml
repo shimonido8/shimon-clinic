@@ -1,0 +1,13 @@
+---
+label: about_text_template
+hide_body: false
+fields:
+- type: text
+  name: target
+  label: target
+- type: text
+  name: title
+  label: title
+- type: file
+  name: img
+  label: img
