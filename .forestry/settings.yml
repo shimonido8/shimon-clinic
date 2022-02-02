@@ -30,6 +30,8 @@ sections:
 - type: document
   path: _data/home-gallery.yml
   label: גלרייה בדף הבית
+- type: heading
+  label: system-pages
 - type: jekyll-pages
   label: דפים
   create: all
