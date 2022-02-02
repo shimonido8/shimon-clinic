@@ -11,17 +11,15 @@ sections:
   label: טיפולים
   create: all
   match: "**/*"
-- type: jekyll-pages
-  label: דפים
-  create: all
-- type: heading
-  label: דפי מערכת
 - type: document
   path: _data/global.yml
   label: הגדרות כלליות
 - type: document
   path: _data/main_menu.yml
   label: תפריט ראשי
+- type: jekyll-pages
+  label: דפים
+  create: all
 - type: document
   path: _data/testimonials.yml
   label: לקוחות ממליצים
