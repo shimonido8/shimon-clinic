@@ -56,3 +56,5 @@ fields:
     required: false
   label: תיאור מטא למנועי חיפוש
   description: השאר ריק כדי לקחת ברירת המחדל מדף הבית
+pages:
+- _treatments/עיסוי-לימפתי.md
