@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: דף הבית
+- type: document
+  path: _data/testimonials.yml
+  label: לקוחות ממליצים
 - type: document
   path: _data/global.yml
   label: הגדרות כלליות
@@ -13,9 +18,6 @@ sections:
 - type: document
   path: _data/home-gallery.yml
   label: גלרייה בדף הבית
-- type: document
-  path: _data/testimonials.yml
-  label: לקוחות ממליצים
 - type: directory
   path: my_collections/_about
   label: טקסט אודות
