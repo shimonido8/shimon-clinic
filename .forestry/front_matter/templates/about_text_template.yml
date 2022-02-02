@@ -13,3 +13,5 @@ fields:
 - type: file
   name: img
   label: תמונת פרופיל
+pages:
+- my_collections/_about/about-me-home.md
