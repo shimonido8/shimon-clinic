@@ -4,13 +4,13 @@
   {% assign meta_title = site.data.home.meta_title %}
 {% endif %}
 
-{% if page.meta_keywords %}
+{% if page.meta_keywords and page.meta_keywords != '' %}
   {% assign keywords = page.meta_keywords %}
 {% else %}
   {% assign keywords = site.data.global.keywords %}
 {% endif %}
 
-{% if page.meta_description %}
+{% if page.meta_description and page.meta_description != '' %}
   {% assign description = page.meta_description %}
 {% else %}
   {% assign description = site.data.global.description %}
