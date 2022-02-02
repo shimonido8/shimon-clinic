@@ -20,8 +20,6 @@ sections:
 - type: document
   path: _data/main_menu.yml
   label: תפריט ראשי
-- type: heading
-  label: תפריטים
 - type: document
   path: _data/testimonials.yml
   label: לקוחות ממליצים
