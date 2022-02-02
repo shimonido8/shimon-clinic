@@ -26,6 +26,11 @@ fields:
     required: false
   label: תיאור הטיפול
   description: תיאור קצר - מה כולל הטיפול
+- name: img
+  type: file
+  config:
+    maxSize: 64
+  label: תמונת באנר
 - name: time
   type: text
   config:
@@ -38,12 +43,6 @@ fields:
     required: false
   label: מחיר הטיפול
   description: מחיר - השאר 0 אם אינך רוצה שהמחיר יופיע בדף
-- name: img_text
-  type: text
-  config:
-    required: false
-  label: תמונה
-  description: שם התמונה שתופיע כבאנר לדף הטיפול (לפי שם התמונה בתיקיית התמונות)
 - name: meta_keywords
   type: text
   config:
@@ -56,11 +55,6 @@ fields:
     required: false
   label: תיאור מטא למנועי חיפוש
   description: השאר ריק כדי לקחת ברירת המחדל מדף הבית
-- name: img
-  type: file
-  config:
-    maxSize: 64
-  label: תמונת באנר
 pages:
 - my_collections/_treatments/limpha.md
 - my_collections/_treatments/neck-sholders-back.md
