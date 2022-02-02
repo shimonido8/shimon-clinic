@@ -1,30 +1,33 @@
+---
 - img: home-gal-big-1.jpeg
   thumb: home-gal-thumb-1.jpeg
   title: קליניקה נעימה ומגיעה
-
+  tag: תמונה 1
 - img: home-gal-big-2.jpeg
   thumb: home-gal-thumb-2.jpeg
   title: מיטת טיפולים מקצועית
-
+  tag: ''
 - img: home-gal-big-3.jpeg
   thumb: home-gal-thumb-3.jpeg
-
+  tag: ''
+  title: ''
 - img: home-gal-big-4.jpeg
   thumb: home-gal-thumb-4.jpeg
-
+  tag: ''
+  title: ''
 - img: home-gal-big-5.jpeg
   thumb: home-gal-thumb-5.jpeg
-
-
+  tag: ''
+  title: ''
 - img: home-gal-big-6.jpeg
   thumb: home-gal-thumb-6.jpeg
   title: קליניקה נעימה ומגיעה
-
+  tag: ''
 - img: home-gal-big-7.jpeg
   thumb: home-gal-thumb-7.jpeg
   title: מיטת טיפולים מקצועית
-
+  tag: ''
 - img: home-gal-big-8.jpeg
   thumb: home-gal-thumb-8.jpeg
-
-    
+  tag: ''
+  title: ''

@@ -24,3 +24,5 @@ fields:
     label: תמונה קטנה
     description: שם התמונה כפי שהועלתה לתיקיית התמונות.<br> ניתן להשאיר ריק אם רוצים
       להשתמש בתמונה הגדולה
+pages:
+- _data/home-gallery.yml
