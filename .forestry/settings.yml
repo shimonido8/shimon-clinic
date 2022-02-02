@@ -7,29 +7,27 @@ sections:
 - type: document
   path: _data/main_menu.yml
   label: תפריט ראשי
-  match: "**/*"
 - type: document
   path: _data/home-gallery.yml
   label: גלרייה בדף הבית
-  match: "**/*"
 - type: document
   path: _data/testimonials.yml
   label: לקוחות ממליצים
 - type: directory
   path: my_collections/_about
-  label: About
+  label: טקסט אודות
   create: all
   match: "**/*"
 - type: directory
   path: my_collections/_treatments
-  label: Treatments
+  label: טיפולים
   create: all
   match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
 - type: jekyll-pages
-  label: Pages
+  label: דפים
   create: all
 upload_dir: assets/images/public
 public_path: "/assets/images/public"
