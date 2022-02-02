@@ -23,8 +23,6 @@ sections:
 - type: document
   path: _data/main_menu.yml
   label: תפריט ראשי
-- type: heading
-  label: דף הבית
 - type: directory
   path: my_collections/_about
   label: טקסט אודות
