@@ -1,4 +1,58 @@
 ---
 label: treatment
 hide_body: false
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: השם באנגלית
+  description: שם הטיפול באותיות אנגלית
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: כתובת הדף
+  description: התובת הURL דרכה גולשים אל הדף, אחרי דומיין<br>permalink
+- name: title
+  type: text
+  config:
+    required: false
+  label: כותרת
+  description: כותרת או שם הטיפול בעברית
+- name: description
+  type: text
+  config:
+    required: false
+  label: תיאור הטיפול
+  description: תיאור קצר - מה כולל הטיפול
+- name: time
+  type: text
+  config:
+    required: false
+  label: אורך הטיפול בדקות
+  description: אורך הטיפול בדקות
+- name: price
+  type: text
+  config:
+    required: false
+  label: מחיר הטיפול
+  description: מחיר - השאר 0 אם אינך רוצה שהמחיר יופיע בדף
+- name: img
+  type: text
+  config:
+    required: false
+  label: תמונה
+  description: שם התמונה שתופיע כבאנר לדף הטיפול (לפי שם התמונה בתיקיית התמונות)
+- name: meta_keywords
+  type: text
+  config:
+    required: false
+  label: מילות מפתח למנועי חיפוש
+  description: השאר ריק כדי לקחת את ברירת המחדל מדף הבית
+- name: meta_description
+  type: text
+  config:
+    required: false
+  label: תיאור מטא למנועי חיפוש
+  description: השאר ריק כדי לקחת ברירת המחדל מדף הבית
