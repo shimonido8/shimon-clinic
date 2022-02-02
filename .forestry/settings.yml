@@ -13,13 +13,13 @@ sections:
   label: דפים
   create: all
 - type: document
-  path: _data/testimonials.yml
-  label: לקוחות ממליצים
-- type: document
   path: _data/global.yml
   label: הגדרות כלליות
 - type: heading
-  label: תפריטים
+  label: דף הבית
+- type: document
+  path: _data/testimonials.yml
+  label: לקוחות ממליצים
 - type: document
   path: _data/main_menu.yml
   label: תפריט ראשי
