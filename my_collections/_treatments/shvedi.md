@@ -8,7 +8,7 @@ description: "
 
 time: 70
 price_not: 250
-img: shiatsu2.jpg
+img: treatment-banner-shiatsu.jpg
 ---
 עיסוי קלאסי המסייע בשחרור השרירים ובשיפור מחזור הדם. משרה תחושת רוגע ונוחות.
 

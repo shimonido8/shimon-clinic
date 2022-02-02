@@ -9,7 +9,7 @@ description: "
 
 time: 70
 price_not: 250
-img: shiatsu2.jpg
+img: treatment-banner-shiatsu.jpg
 ---
 
 שיאצו הוא טיפול משחרר ואנרגטי העובד על הצ'אקרות והמרידיאנים.משלב עבודה אנרגטית ועיסוי פיזי.

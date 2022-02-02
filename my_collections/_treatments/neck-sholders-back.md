@@ -8,7 +8,7 @@ description: "
 
 time: 70
 price_not: 250
-img: shiatsu2.jpg
+img: treatment-banner-shiatsu.jpg
 ---
 
 טיפול ממוקד בפלג גוף עליון
