@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: _data/testimonials.yml
+  label: לקוחות ממליצים
+  match: "**/*"
 - type: directory
   path: my_collections/_about
   label: About
