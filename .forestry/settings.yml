@@ -4,8 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: heading
-  label: תפריטים
 - type: directory
   path: my_collections/_treatments
   label: טיפולים
@@ -14,6 +12,8 @@ sections:
 - type: jekyll-pages
   label: דפים
   create: all
+- type: heading
+  label: דפי מערכת
 - type: document
   path: _data/global.yml
   label: הגדרות כלליות
@@ -21,7 +21,7 @@ sections:
   path: _data/main_menu.yml
   label: תפריט ראשי
 - type: heading
-  label: דף הבית
+  label: תפריטים
 - type: document
   path: _data/testimonials.yml
   label: לקוחות ממליצים
