@@ -5,9 +5,16 @@ fields:
 - type: text
   name: target
   label: target
+  description: לצרכי מערכת. לא לשנות
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: כותרת
 - type: file
-  name: img
-  label: img
+  name: img_old
+  label: תמונת פרופיל
+- name: img
+  type: file
+  config:
+    maxSize: 64
+  label: תמונת פרופיל
