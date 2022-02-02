@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: תפריטים
 - type: directory
   path: my_collections/_treatments
   label: טיפולים
@@ -15,14 +17,14 @@ sections:
 - type: document
   path: _data/global.yml
   label: הגדרות כלליות
+- type: document
+  path: _data/main_menu.yml
+  label: תפריט ראשי
 - type: heading
   label: דף הבית
 - type: document
   path: _data/testimonials.yml
   label: לקוחות ממליצים
-- type: document
-  path: _data/main_menu.yml
-  label: תפריט ראשי
 - type: directory
   path: my_collections/_about
   label: טקסט אודות
