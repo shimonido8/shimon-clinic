@@ -5,6 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: _data/global.yml
+  label: הגדרות כלליות
+  match: "**/*"
+- type: document
   path: _data/main_menu.yml
   label: תפריט ראשי
 - type: document
