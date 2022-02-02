@@ -5,9 +5,13 @@ fields:
 - type: boolean
   name: noindex_yesindex
   label: noindex_yesindex
+  description: נא לא לשנות.
+  hidden: true
 - type: textarea
   name: description
-  label: description
+  label: תיאור מטא כללי למנועי חיפוש
+  description: תיאור מטא שיופיע לדף הבית ולכל דף שלא מוגדר בו אחרת
 - type: textarea
   name: keywords
-  label: keywords
+  label: מילות מפתח למנועי חיפוש
+  description: מילות מפתח שיופיעו לדף הבית וגם כברירת מחדל לכל דף שלא מוגדר בו אחרת
