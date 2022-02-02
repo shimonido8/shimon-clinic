@@ -1,0 +1,17 @@
+---
+label: home_gallery
+hide_body: true
+fields:
+- type: field_group_list
+  name: Home gallery
+  label: Home gallery
+  fields:
+  - type: file
+    name: img
+    label: img
+  - type: file
+    name: thumb
+    label: thumb
+  - type: text
+    name: title
+    label: title
