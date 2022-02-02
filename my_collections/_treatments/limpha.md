@@ -2,13 +2,14 @@
 name: limphati
 permalink: limphati
 title: עיסוי לימפתי
-description: "
-מתבצע בטכניקת עיסוי ידני המפעיל את מערכת הלימפה שמטרתה להקל ולהאיץ את זרימת נוזלי הלימפה
-"
-time: 70
+description: " מתבצע בטכניקת עיסוי ידני המפעיל את מערכת הלימפה שמטרתה להקל ולהאיץ
+  את זרימת נוזלי הלימפה "
+time: "70"
 price_not: 250
 img: treatment-banner-shiatsu.jpg
+price: "0"
+meta_keywords: ''
+meta_description: ''
+
 ---
-
 מתבצע בטכניקת עיסוי ידני המפעיל את מערכת הלימפה שמטרתה להקל ולהאיץ את זרימת נוזלי הלימפה
-
