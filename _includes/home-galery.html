@@ -14,14 +14,14 @@
                     {% assign img_title = site.title %}
                 {% endif %}
                 {% if img.thumb %}
-                    {% assign img_thumb = 'thumbs/' | append: img.thumb %}
+                    {% assign img_thumb = img.thumb %}
                 {% else %}
                     {% assign img_thumb = img.src %}
                 {% endif %}
                 <div class="gallery-item">
                     
                     <a href="javascript://" class="modal-gallery-a" data-gallery_id = "gallery_modal_1" data-img_index = "{{forloop.index}}">
-                        <img src="assets/images/home-gallery/{{img_thumb}}" img="{{img_title}}" />
+                        <img src="assets/images/public/{{img_thumb}}" img="{{img_title}}" />
                     </a>
                 </div>
             {% endfor %}
@@ -62,7 +62,7 @@
                         </div>
                         {% endif %}                        
                         <div class="item-img">
-                            <img src="assets/images/home-gallery/{{ img.img }}" alt="{{ img_title }}" />
+                            <img src="assets/images/public/{{ img.img }}" alt="{{ img_title }}" />
                         </div>
 
                     </div>

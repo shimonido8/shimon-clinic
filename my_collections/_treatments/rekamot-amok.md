@@ -7,7 +7,7 @@ description: "
 "
 time: 70
 price_not: 250
-img: shiatsu2.jpg
+img: treatment-banner-shiatsu.jpg
 ---
 
 עיסוי רקמות עמוק הוא עיסוי טיפולי, וחזק יחסית, וכך מאפשר חדירה לעומק השריר וריכוך השכבות העמוקות יותר.
