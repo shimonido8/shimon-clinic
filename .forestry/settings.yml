@@ -5,12 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: _about
+  path: my_collections/_about
   label: About
   create: all
   match: "**/*"
 - type: directory
-  path: _treatments
+  path: my_collections/_treatments
   label: Treatments
   create: all
   match: "**/*"
