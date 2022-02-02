@@ -6,7 +6,7 @@ description: " שיאצו הוא טיפול משחרר ואנרגטי העובד
   אנרגטית ועיסוי פיזי. מומלץ להגיע בביגוד קל ונח "
 time: "70"
 price_not: '250'
-img: treatment-banner-shiatsu.jpg
+img: "/treatment-banner-shiatsu.jpg"
 price: "0"
 meta_keywords: ''
 meta_description: ''

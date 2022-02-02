@@ -6,7 +6,7 @@ description: " שיטת טיפול מסורתית המתמקדת בנקודות 
   והרגעה "
 time: "70"
 price_not: 250
-img: treatment-banner-shiatsu.jpg
+img: "/treatment-banner-shiatsu.jpg"
 price: "0"
 meta_keywords: ''
 meta_description: ''
