@@ -5,9 +5,16 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: _data/main_menu.yml
+  label: תפריט ראשי
+  match: "**/*"
+- type: document
+  path: _data/home-gallery.yml
+  label: גלרייה בדף הבית
+  match: "**/*"
+- type: document
   path: _data/testimonials.yml
   label: לקוחות ממליצים
-  match: "**/*"
 - type: directory
   path: my_collections/_about
   label: About
