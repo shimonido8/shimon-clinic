@@ -1,33 +1,33 @@
 ---
-- img: home-gal-big-1.jpeg
-  thumb: home-gal-thumb-1.jpeg
+- img: "/home-gal-big-1.jpeg"
+  thumb: "/home-gal-thumb-1.jpeg"
   title: קליניקה נעימה ומגיעה
   tag: תמונה 1
-- img: home-gal-big-2.jpeg
-  thumb: home-gal-thumb-2.jpeg
+- img: "/home-gal-big-2.jpeg"
+  thumb: "/home-gal-thumb-2.jpeg"
   title: מיטת טיפולים מקצועית
   tag: תמונה 2
-- img: home-gal-big-3.jpeg
+- img: "/home-gal-big-3.jpeg"
   thumb: "/home-gal-thumb-3.jpeg"
   tag: תמונה 3
   title: ''
-- img: home-gal-big-4.jpeg
-  thumb: home-gal-thumb-4.jpeg
+- img: "/home-gal-big-4.jpeg"
+  thumb: "/home-gal-thumb-4.jpeg"
   tag: תמונה 4
   title: ''
-- img: home-gal-big-5.jpeg
-  thumb: home-gal-thumb-5.jpeg
+- img: "/home-gal-big-5.jpeg"
+  thumb: "/home-gal-thumb-5.jpeg"
   tag: תמונה 5
   title: ''
-- img: home-gal-big-6.jpeg
-  thumb: home-gal-thumb-6.jpeg
+- img: "/home-gal-big-6.jpeg"
+  thumb: "/home-gal-thumb-6.jpeg"
   title: קליניקה נעימה ומגיעה
   tag: תמונה 6
-- img: home-gal-big-7.jpeg
-  thumb: home-gal-thumb-7.jpeg
+- img: "/home-gal-big-7.jpeg"
+  thumb: "/home-gal-thumb-7.jpeg"
   title: מיטת טיפולים מקצועית
   tag: תמונה 7
-- img: home-gal-big-8.jpeg
-  thumb: home-gal-thumb-8.jpeg
+- img: "/home-gal-big-8.jpeg"
+  thumb: "/home-gal-thumb-8.jpeg"
   tag: תמונה 8
   title: ''

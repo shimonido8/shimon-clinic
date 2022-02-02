@@ -16,12 +16,12 @@
                 {% if img.thumb %}
                     {% assign img_thumb = img.thumb %}
                 {% else %}
-                    {% assign img_thumb = img.src %}
+                    {% assign img_thumb = img.img %}
                 {% endif %}
                 <div class="gallery-item">
                     
                     <a href="javascript://" class="modal-gallery-a" data-gallery_id = "gallery_modal_1" data-img_index = "{{forloop.index}}">
-                        <img src="assets/images/public/{{img_thumb}}" img="{{img_title}}" />
+                        <img src="assets/images/public{{img_thumb}}" img="{{img_title}}" />
                     </a>
                 </div>
             {% endfor %}
@@ -52,6 +52,7 @@
                 {% else %}
                 {% assign img_title = site.title %}
                 {% endif %}
+                {% assign img_src = img.img  %}
                 <div class="gallery-item item item_id_{{forloop.index}}">
                     <div class="item-content">
                         {% if img.title %}
@@ -62,7 +63,7 @@
                         </div>
                         {% endif %}                        
                         <div class="item-img">
-                            <img src="assets/images/public/{{ img.img }}" alt="{{ img_title }}" />
+                            <img src="assets/images/public/{{ img_src }}" alt="{{ img_title }}" />
                         </div>
 
                     </div>
