@@ -12,12 +12,11 @@ sections:
 - type: document
   path: _data/global.yml
   label: הגדרות כלליות
+- type: heading
+  label: site-menus
 - type: document
   path: _data/main_menu.yml
   label: תפריט ראשי
-- type: jekyll-pages
-  label: דפים
-  create: all
 - type: heading
   label: home-page
 - type: document
@@ -31,6 +30,9 @@ sections:
 - type: document
   path: _data/home-gallery.yml
   label: גלרייה בדף הבית
+- type: jekyll-pages
+  label: דפים
+  create: all
 upload_dir: assets/images/public
 public_path: ''
 front_matter_path: ''
