@@ -15,7 +15,7 @@ layout: post
 
 {% if has_price_section %}
   <div class="price-section">
-      {% if treatment_price %}
+      {% if treatment_price and treatment_price != '0' %}
         <div class="price item">
             מחיר: {{treatment_price}} ש"ח
         </div>
