@@ -26,9 +26,6 @@ sections:
   label: טיפולים
   create: all
   match: "**/*"
-- type: jekyll-posts
-  label: Posts
-  create: all
 - type: jekyll-pages
   label: דפים
   create: all
