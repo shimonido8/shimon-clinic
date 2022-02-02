@@ -6,12 +6,21 @@ fields:
   name: Home gallery
   label: Home gallery
   fields:
-  - type: file
-    name: img
-    label: img
-  - type: file
-    name: thumb
-    label: thumb
+  - name: tag
+    type: text
+    config:
+      required: false
+    label: תגית
+    description: שם מזהה לתמונה
   - type: text
     name: title
-    label: title
+    label: כותרת מעל התמונה
+  - type: file
+    name: img
+    label: תמונה גדולה
+    description: שם הקובץ של התמונה שהועלתה לתיקיית מדיה
+  - type: file
+    name: thumb
+    label: תמונה קטנה
+    description: שם התמונה כפי שהועלתה לתיקיית התמונות.<br> ניתן להשאיר ריק אם רוצים
+      להשתמש בתמונה הגדולה
