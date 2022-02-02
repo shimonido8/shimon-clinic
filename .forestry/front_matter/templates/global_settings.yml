@@ -1,0 +1,13 @@
+---
+label: global_settings
+hide_body: true
+fields:
+- type: boolean
+  name: noindex_yesindex
+  label: noindex_yesindex
+- type: textarea
+  name: description
+  label: description
+- type: textarea
+  name: keywords
+  label: keywords
