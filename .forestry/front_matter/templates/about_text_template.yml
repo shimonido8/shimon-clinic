@@ -11,10 +11,5 @@ fields:
   name: title
   label: כותרת
 - type: file
-  name: img_old
-  label: תמונת פרופיל
-- name: img
-  type: file
-  config:
-    maxSize: 64
+  name: img
   label: תמונת פרופיל
