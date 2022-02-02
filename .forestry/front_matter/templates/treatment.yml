@@ -57,4 +57,5 @@ fields:
   label: תיאור מטא למנועי חיפוש
   description: השאר ריק כדי לקחת ברירת המחדל מדף הבית
 pages:
+- my_collections/_treatments/reflexology.md
 - my_collections/_treatments/shiatsu.md
