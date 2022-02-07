@@ -1,8 +1,4 @@
 ---
-- img: "/home-gal-big-1.jpeg"
-  thumb: "/home-gal-thumb-1.jpg"
-  title: קליניקה נעימה ומגיעה
-  tag: מסאז' רקמות עמוק
 - img: "/home-gal-big-2.jpeg"
   thumb: "/home-gal-thumb-2.jpg"
   title: מיטת טיפולים מקצועית
@@ -11,6 +7,10 @@
   thumb: "/home-gal-thumb-3.jpg"
   tag: תמונה 3
   title: ''
+- img: "/home-gal-big-1.jpeg"
+  thumb: "/home-gal-thumb-1.jpg"
+  title: קליניקה נעימה ומגיעה
+  tag: מסאז' רקמות עמוק
 - img: "/home-gal-big-4.jpeg"
   thumb: "/home-gal-thumb-4.jpg"
   tag: תמונה 4
