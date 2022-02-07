@@ -8,7 +8,7 @@ time: "70"
 price_not: 250
 img: "/treatment-banner-shiatsu.jpg"
 price: "0"
-meta_keywords: ''
+meta_keywords: עיסוי למפתי בבאר שבע
 meta_description: ''
 
 ---
