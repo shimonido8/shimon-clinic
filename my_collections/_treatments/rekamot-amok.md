@@ -2,12 +2,13 @@
 name: rekamot amok
 permalink: rekamot-amok
 title: עיסוי רקמות עמוק
-description: " שיטת טיפול עמוקה וממוקדת לשחרור השרירים ונקודות מתח באזורים שונים בגוף "
+description: " שיטת עיסוי טיפול עמוק וממוקד לשחרור השרירים ונקודות מתח באזורים שונים
+  בגוף "
 time: "70"
 price_not: 250
-img: "/treatment-banner-shiatsu.jpg"
+img: "/מסאז רקמות עמוק.jpeg"
 price: "0"
-meta_keywords: ''
+meta_keywords: מסאז רקמות עמוק, באר שבע, הקליניקה של שמעון, עיסוי רקמות עמוק
 meta_description: ''
 
 ---
