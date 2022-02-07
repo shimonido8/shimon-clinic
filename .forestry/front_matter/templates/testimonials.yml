@@ -12,3 +12,5 @@ fields:
   - type: textarea
     name: text
     label: המלצת הלקוח
+pages:
+- _data/testimonials.yml
