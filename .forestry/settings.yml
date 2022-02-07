@@ -4,15 +4,25 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: treatment-list
+- type: directory
+  path: my_collections/_treatments
+  label: טיפולים
+  create: all
+  match: "**/*"
+- type: heading
+  label: keywords, description,meta, etc
 - type: document
   path: _data/global.yml
   label: הגדרות כלליות
+- type: heading
+  label: site-menus
 - type: document
   path: _data/main_menu.yml
   label: תפריט ראשי
-- type: document
-  path: _data/home-gallery.yml
-  label: גלרייה בדף הבית
+- type: heading
+  label: home-page
 - type: document
   path: _data/testimonials.yml
   label: לקוחות ממליצים
@@ -21,14 +31,11 @@ sections:
   label: טקסט אודות
   create: all
   match: "**/*"
-- type: directory
-  path: my_collections/_treatments
-  label: טיפולים
-  create: all
-  match: "**/*"
-- type: jekyll-posts
-  label: Posts
-  create: all
+- type: document
+  path: _data/home-gallery.yml
+  label: גלרייה בדף הבית
+- type: heading
+  label: system-pages
 - type: jekyll-pages
   label: דפים
   create: all

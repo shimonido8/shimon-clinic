@@ -1,0 +1,16 @@
+---
+label: testimonials
+hide_body: true
+fields:
+- type: field_group_list
+  name: Testimonials
+  label: לקוחות ממליצים
+  fields:
+  - type: text
+    name: name
+    label: שם הלקוח
+  - type: textarea
+    name: text
+    label: המלצת הלקוח
+pages:
+- _data/testimonials.yml
