@@ -8,7 +8,7 @@ price_not: 250
 img: "/עיסוי-שוודי.jpeg"
 price: "0"
 meta_keywords: ''
-meta_description: ''
+meta_description: עיסוי ממוקד בפלג הגוף העליון
 
 ---
 טיפול ממוקד בפלג גוף עליון
