@@ -17,4 +17,3 @@ fields:
   description: מילות מפתח שיופיעו לדף הבית וגם כברירת מחדל לכל דף שלא מוגדר בו אחרת
 pages:
 - _data/global.yml
-- _data/global.yml

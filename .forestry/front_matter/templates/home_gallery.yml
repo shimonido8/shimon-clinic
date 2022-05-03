@@ -24,4 +24,3 @@ fields:
     description: " ניתן להשאיר ריק אם רוצים להשתמש בתמונה הגדולה"
 pages:
 - _data/home-gallery.yml
-- _data/home-gallery.yml
