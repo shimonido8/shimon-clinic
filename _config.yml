@@ -68,6 +68,8 @@ collections:
   treatments: 
         output: true
         layout: home
+  head_codes: 
+    output: true
 
 
 defaults:

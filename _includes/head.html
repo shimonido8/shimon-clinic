@@ -29,4 +29,7 @@
   <meta property="og:image" content="https://shimon-clinic.co.il/assets/images/public/meta_site_image.jpeg" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ site.baseurl}}/assets/main.css">
+  {% for head_code in site.head_codes %}
+{{  head_code.content }}
+{% endfor %}
 </head>
