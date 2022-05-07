@@ -17,3 +17,5 @@ fields:
       file: 
       path: 
   label: מיקום
+pages:
+- my_collections/_html_codes/google-analitics-body.md
