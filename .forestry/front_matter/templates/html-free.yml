@@ -1,4 +1,16 @@
 ---
 label: html free
 hide_body: false
-fields: []
+fields:
+- name: location
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: מיקום
