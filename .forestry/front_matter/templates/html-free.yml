@@ -18,4 +18,5 @@ fields:
       path: 
   label: מיקום
 pages:
+- my_collections/_head_codes/bodytest.md
 - my_collections/_head_codes/headtest.md
