@@ -17,3 +17,5 @@ fields:
       file: 
       path: 
   label: מיקום
+pages:
+- my_collections/_head_codes/headtest.md
