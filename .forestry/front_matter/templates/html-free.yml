@@ -19,3 +19,4 @@ fields:
   label: מיקום
 pages:
 - my_collections/_html_codes/google-analitics-body.md
+- my_collections/_html_codes/google-analitics-head.md
