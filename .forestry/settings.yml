@@ -5,10 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: my_collections/_head_codes
-  label: head codes
+  path: my_collections/_html_codes
+  label: תוספות HTML
   create: all
   match: "**/*"
+  templates:
+  - html-free
 - type: heading
   label: treatment-list
 - type: directory
