@@ -68,7 +68,7 @@ collections:
   treatments: 
         output: true
         layout: home
-  head_codes: 
+  html_codes: 
     output: true
 
 

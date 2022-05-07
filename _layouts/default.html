@@ -4,7 +4,9 @@
   {%- include head.html -%}
 
   <body class="body {{ page.layout }}">
-
+{% for html_code in site.html_codes  %}{% if html_code.location == 'after_body_open' %}
+{{  html_code.content }}
+{% endif %}{% endfor %}
     {%- include header.html -%}
 
     <div class="main-content page-section" aria-label="Content">
@@ -37,7 +39,9 @@
 
 
     <div id="modals_placeholder"></div>
-
+{% for html_code in site.html_codes  %}{% if html_code.location == 'before_body_end' %}
+{{  html_code.content }}
+{% endif %}{% endfor %}
   </body>
 
 </html>
