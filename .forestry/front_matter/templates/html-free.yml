@@ -4,20 +4,18 @@ hide_body: false
 fields:
 - name: location
   type: select
-  default: []
+  default: ''
   config:
     required: false
-    options: []
+    options:
+    - head
+    - after_body_open
+    - before_body_end
     source:
       type: simple
       section: 
       file: 
       path: 
   label: מיקום
-- name: loc2
-  type: text
-  config:
-    required: false
-  label: loc2
 pages:
 - my_collections/_head_codes/test.md.md
